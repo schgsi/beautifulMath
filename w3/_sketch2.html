@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.6.0/p5.js"></script>
+    <title>Sketch2</title>
+
+    <link rel="stylesheet" type="text/css" href="style.css">
+
+  </head>
+
+  <body>
+    <h1>Sketch2</h1>
+    <a href="start.html">go back</a>
+    <p></p>
+
+    <input type="file" id="fileUpload" />
+        <button onclick="upload()">Analyze file</button><br/>
+        <label for="lengthInput">Enter sentence length: </label>
+        <input type="number" id="lengthInput" name="lengthInput" value="5">
+        <button onclick="generate()">Generate</button>
+        <div class="markov-text" id="markov-text">...</div>
+
+    
+    <script src="sketch2.js"></script>
+  </body>
+</html>

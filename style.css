@@ -1,0 +1,81 @@
+html, body {
+  margin: 0;
+  padding: 20px;
+  background-color: #333333;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  color: antiquewhite;
+}
+
+h1 {
+  color: antiquewhite;
+  padding-left: 20px;
+  font-size: 50px;
+}
+
+h2 {
+  color: antiquewhite;
+  padding-left: 20px;
+  font-size: 30px;
+}
+
+canvas {
+  display: block;
+}
+
+#canvas {
+  height: 700;
+  width: 700;
+}
+
+#back {
+  color:#777777;
+  font-size: 20px;
+  letter-spacing: 3px;
+}
+
+a {
+  font-size: 20px;
+  padding: 20px 20px 20px 20px;
+  text-decoration: none;
+  color: antiquewhite;
+}
+
+h3 {
+  font-size: 30px;
+  font-family: 'Courier New', Courier, monospace;
+}
+
+p {
+  font-size: 20px;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  color: antiquewhite;
+}
+
+/* Change the link color to #111 (black) on hover */
+li a:hover {
+  background-color: #222;
+}
+
+
+#texty {
+  padding-left: 80px;
+  padding-top: 80px;
+}
