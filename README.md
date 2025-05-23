@@ -1,1 +1,1 @@
-index.html
+https://schgsi.github.io/beautifulMath/
