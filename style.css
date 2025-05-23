@@ -1,20 +1,24 @@
 html, body {
   margin: 0;
-  padding: 20px;
-  background-color: #333333;
-  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-  color: antiquewhite;
+  padding: 0px;
+  background-color: #ffffff;
+  font-family: 'Courier New', Courier, monospace;
+  color: #502f73;
 }
 
 h1 {
-  color: antiquewhite;
-  padding-left: 20px;
+  color: white;
+  padding-left: 80px;
+  padding-top: 80px;
+  margin: 0;
   font-size: 50px;
 }
 
 h2 {
-  color: antiquewhite;
-  padding-left: 20px;
+  color: white;
+  padding-left: 80px;
+  padding-bottom: 30px;
+  margin: 0;
   font-size: 30px;
 }
 
@@ -28,7 +32,7 @@ canvas {
 }
 
 #back {
-  color:#777777;
+  color:#502f73;
   font-size: 20px;
   letter-spacing: 3px;
 }
@@ -37,11 +41,11 @@ a {
   font-size: 20px;
   padding: 20px 20px 20px 20px;
   text-decoration: none;
-  color: antiquewhite;
+  color: white;
 }
 
 h3 {
-  font-size: 30px;
+  /* font-size: 30px; */
   font-family: 'Courier New', Courier, monospace;
 }
 
@@ -52,9 +56,9 @@ p {
 ul {
   list-style-type: none;
   margin: 0;
-  padding: 0;
+  padding-left: 70px;
   overflow: hidden;
-  background-color: #333;
+  background-color: #7d52ab;
 }
 
 li {
@@ -64,14 +68,19 @@ li {
 li a {
   display: block;
   text-align: center;
-  padding: 14px 16px;
+  padding: 20px 25px;
   text-decoration: none;
-  color: antiquewhite;
+  color: white;
 }
 
 /* Change the link color to #111 (black) on hover */
 li a:hover {
-  background-color: #222;
+  background-color: #502f73;
+}
+
+#head {
+  background-color: #502f73;
+  color: white;
 }
 
 
